@@ -10,7 +10,10 @@ function greet() {
 </script>
 
 <template>
-    <div class="bg-surface-50 dark:bg-surface-950 flex items-center justify-center min-h-screen p-10">
+    <NuxtLayout>
+        <NuxtPage />
+    </NuxtLayout>
+    <!-- <div class="bg-surface-50 dark:bg-surface-950 flex items-center justify-center min-h-screen p-10">
         <div class="flex items-center justify-center min-h-screen p-10">
             <section class="bg-white dark:bg-surface-900 p-10 rounded-xl flex flex-col gap-8 max-w-3xl">
                 <h1 class="text-4xl text-black dark:text-white font-bold text-center">Tailwind CSS + PrimeVue</h1>
@@ -23,5 +26,5 @@ function greet() {
                 </div>
             </section>
         </div>
-    </div>
+    </div> -->
 </template>
