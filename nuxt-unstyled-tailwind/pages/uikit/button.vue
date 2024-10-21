@@ -28,7 +28,7 @@ function load(index) {
 </script>
 
 <template>
-    <div class="flex flex-col md:flex-row gap-8">
+    <!-- <div class="flex flex-col md:flex-row gap-8">
         <div class="md:w-1/2">
             <div class="card flex flex-col gap-4">
                 <div class="font-semibold text-xl">Default</div>
@@ -104,10 +104,10 @@ function load(index) {
                 <div class="font-semibold text-xl">Templating</div>
                 <div class="flex flex-wrap gap-2">
                     <Button type="button">
-                        <img alt="logo" src="/demo/images/logo-white.svg" style="width: 1.5rem" />
+                        <img alt="logo" src="/images/logo-white.svg" style="width: 1.5rem" />
                     </Button>
                     <Button type="button" outlined severity="success">
-                        <img alt="logo" src="/demo/images/logo.svg" style="width: 1.5rem" />
+                        <img alt="logo" src="/images/logo.svg" style="width: 1.5rem" />
                         <span class="ml-2 text-bold">PrimeVue</span>
                     </Button>
                 </div>
@@ -194,5 +194,5 @@ function load(index) {
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </template>

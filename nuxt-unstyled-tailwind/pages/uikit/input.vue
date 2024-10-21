@@ -1,6 +1,6 @@
 <script setup>
-import { CountryService } from '@/service/CountryService';
-import { NodeService } from '@/service/NodeService';
+import { CountryService } from '@/utils/service/CountryService';
+import { NodeService } from '@/utils/service/NodeService';
 import { onMounted, ref } from 'vue';
 
 const floatValue = ref(null);

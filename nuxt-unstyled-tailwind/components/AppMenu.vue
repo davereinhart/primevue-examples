@@ -6,7 +6,7 @@ import AppMenuItem from './AppMenuItem.vue';
 const model = ref([
     {
         label: 'Home',
-        items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' }]
+        items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/dashboard' }]
     },
     {
         label: 'UI Components',
@@ -31,7 +31,7 @@ const model = ref([
     {
         label: 'Pages',
         icon: 'pi pi-fw pi-briefcase',
-        to: '/pages',
+        to: '/',
         items: [
             {
                 label: 'Landing',
@@ -62,17 +62,17 @@ const model = ref([
             {
                 label: 'Crud',
                 icon: 'pi pi-fw pi-pencil',
-                to: '/pages/crud'
+                to: '/crud'
             },
             {
                 label: 'Not Found',
                 icon: 'pi pi-fw pi-exclamation-circle',
-                to: '/pages/notfound'
+                to: '/notfound'
             },
             {
                 label: 'Empty',
                 icon: 'pi pi-fw pi-circle-off',
-                to: '/pages/empty'
+                to: '/empty'
             }
         ]
     },
