@@ -1,5 +1,4 @@
 <script setup>
-import { useLayout } from '@/composables/layout';
 const { layoutConfig, layoutState, isSidebarActive, resetMenu } = useLayout();
 
 const outsideClickListener = ref(null);

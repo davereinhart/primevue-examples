@@ -1,6 +1,4 @@
 <script setup>
-import AppMenuItem from './AppMenuItem.vue';
-
 const model = ref([
     {
         label: 'Home',

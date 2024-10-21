@@ -1,9 +1,4 @@
 <script setup>
-// import Toolbar from 'primevue/toolbar'
-// import Button from 'primevue/button'
-// import Accordion from 'primevue/accordion'
-// import AccordionPanel from 'primevue/accordionpanel'
-import Splitter from ''
 const items = ref([
     {
         label: 'Save',
@@ -62,7 +57,7 @@ function toggle() {
             <div class="md:w-1/2">
                 <div class="card">
                     <div class="font-semibold text-xl mb-4">Accordion</div>
-                    <!-- <Accordion value="0">
+                    <Accordion value="0">
                         <AccordionPanel value="0">
                             <AccordionHeader>Header I</AccordionHeader>
                             <AccordionContent>
@@ -93,7 +88,7 @@ function toggle() {
                                 </p>
                             </AccordionContent>
                         </AccordionPanel>
-                    </Accordion> -->
+                    </Accordion>
                 </div>
                 <div class="card">
                     <div class="font-semibold text-xl mb-4">Tabs</div>

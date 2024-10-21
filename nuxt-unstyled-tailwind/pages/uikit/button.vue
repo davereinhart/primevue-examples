@@ -1,6 +1,4 @@
 <script setup>
-import Button from 'primevue/button'
-
 const items = ref([
     {
         label: 'Update',

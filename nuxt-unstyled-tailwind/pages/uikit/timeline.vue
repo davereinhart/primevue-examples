@@ -1,6 +1,4 @@
 <script setup>
-// import Timeline from 'primevue/timeline'
-
 const events = ref([
     {
         status: 'Ordered',

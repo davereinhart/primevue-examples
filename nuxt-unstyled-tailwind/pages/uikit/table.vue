@@ -2,8 +2,6 @@
 import { CustomerService } from '@/utils/service/CustomerService';
 import { ProductService } from '@/utils/service/ProductService';
 import { FilterMatchMode, FilterOperator } from '@primevue/core/api';
-import { onBeforeMount, reactive, ref } from 'vue';
-// import DataTable from 'primevue/datatable'
 
 const customers1 = ref(null);
 const customers2 = ref(null);

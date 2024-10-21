@@ -1,7 +1,4 @@
 <script setup>
-import { useLayout } from '@/composables/layout';
-import { onMounted, ref, watch } from 'vue';
-
 const { getPrimary, getSurface, isDarkTheme } = useLayout();
 const lineData = ref(null);
 const pieData = ref(null);
