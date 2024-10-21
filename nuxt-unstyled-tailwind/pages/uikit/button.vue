@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import Button from 'primevue/button'
 
 const items = ref([
     {
@@ -28,7 +28,7 @@ function load(index) {
 </script>
 
 <template>
-    <!-- <div class="flex flex-col md:flex-row gap-8">
+    <div class="flex flex-col md:flex-row gap-8">
         <div class="md:w-1/2">
             <div class="card flex flex-col gap-4">
                 <div class="font-semibold text-xl">Default</div>
@@ -194,5 +194,5 @@ function load(index) {
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 </template>

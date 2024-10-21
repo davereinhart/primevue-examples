@@ -1,6 +1,4 @@
 <script setup>
-import { ref } from 'vue';
-
 const dropdownItems = ref([
     { name: 'Option 1', code: 'Option 1' },
     { name: 'Option 2', code: 'Option 2' },

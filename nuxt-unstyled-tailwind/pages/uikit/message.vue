@@ -1,6 +1,5 @@
 <script setup>
-import { useToast } from 'primevue/usetoast';
-import { ref } from 'vue';
+import Message from 'primevue/message'
 
 const toast = useToast();
 const message = ref([]);
@@ -59,9 +58,9 @@ function showError() {
                     <Message severity="contrast">Contrast Message</Message>
                 </div>
 
-                <transition-group name="p-message" tag="div">
+                <!-- <transition-group name="p-message" tag="div">
                     <Message v-for="msg of message" :severity="msg.severity" :key="msg.content">{{ msg.content }}</Message>
-                </transition-group>
+                </transition-group> -->
             </div>
         </div>
     </div>
